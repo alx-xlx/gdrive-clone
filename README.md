@@ -8,10 +8,15 @@
 
 ### Setup
 
-```
+```sh
+sudo apt install -y make python build-essential
 git clone https://github.com/alx-xlx/gdrive-clone.git
 cd gdrive-clone
+npm install
+node server
 ```
+
+If everything go as scripted you will be asked to Enter Auth Token
 
 ### Generate Service Accounts
 
