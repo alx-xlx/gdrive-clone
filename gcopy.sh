@@ -9,7 +9,7 @@ REPOPATH=`pwd`
 FILEPATH=${REPOPATH}/accounts/1.json
 
 CHECK_MARK="\033[0;32m\xE2\x9C\x94\033[0m"
-CROSS="\u274c"
+CROSS_MARK="\u274c"
 
 echo "                   `date`                                         
           __      __                         __                   
@@ -24,7 +24,7 @@ sleep 2
 if test -f "$FILEPATH"; then
     echo -e "\\r${CHECK_MARK} Accounts Folder is Present"
 else
-    echo -e "\\r${CROSS} Folder is not Present"
+    echo -e "\\r${CROSS_MARK} Folder is not Present"
     exit 0
 fi
 echo -en "[gc]\ntype = drive\nscope = drive\nservice_account_file = ${REPOPATH}/accounts/1.json\nservice_account_file_path = ${REPOPATH}/accounts/" >> ${REPOPATH}/rc.conf
