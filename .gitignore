@@ -1,5 +1,8 @@
 .autogit
-accounts/
+/accounts/*
 /config.json
 node_modules/
 npm-debug.log
+/rclone.conf
+/rclone*.conf
+/token.pickle
