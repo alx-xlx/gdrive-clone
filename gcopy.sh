@@ -2,10 +2,10 @@
 # REPOPATH=/PATH/TO/YOUR/REPOSITORY
 
 DEFAULTDESTINATION='0AD1zzAs7falwUk9PVA'        
-REPOPATH=/home/ubuntu/gdrive-clone
+
 
 # ----------------------------------------------------------------------
-
+REPOPATH=`pwd`
 FILEPATH=${REPOPATH}/accounts/1.json
 
 CHECK_MARK="\033[0;32m\xE2\x9C\x94\033[0m"
@@ -16,7 +16,7 @@ echo "                   `date`
 .-----.--|  .----|__.--.--.-----.______.----|  .-----.-----.-----.
 |  _  |  _  |   _|  |  |  |  -__|______|  __|  |  _  |     |  -__|
 |___  |_____|__| |__|\___/|_____|      |____|__|_____|__|__|_____|
-|_____|                                                           
+|_____|                                                   G-COPY
               https://github.com/alx-xlx/gdrive-clone               "
 
 echo -n "Checking for Accounts Folder"
