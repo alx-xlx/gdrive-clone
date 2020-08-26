@@ -18,6 +18,7 @@
 sudo apt install -y make python build-essential
 git clone https://github.com/alx-xlx/gdrive-clone.git
 cd gdrive-clone
+chmod -R 777 gclone
 npm install
 node server
 ```
