@@ -1,16 +1,20 @@
 # gdrive-clone
- Clone a shared google drive link to your own google account
+ Clone a shared google drive link to your own google drive
 
 ### Features
 
 - COPY/MOVE/SYNC any Shared Folder to your (My Drive/Shared Drive)
+- Server Side Copy (SAs are used for copy/move/sync)
 - Bypass 750GB Transfer Limit
-- 
+- No extra Bandwidth Required
+- Implemented with Telegram Bot for easy access 
+
+Guide 
 
 ### Requirements
 - Python 3
 - Telegram Application
-- Linux Server
+- Linux Server 
 
 ### Setup
 
@@ -41,40 +45,64 @@ Once Successful, you will be presented with a link to your bot (t.me/YOURBOT) & 
 
 Before Generating Service Accounts we have to enable Drive API in our Google Account and grab the API `credentials.json` file.
 
+### Enable APIs
+
+#### Drive API
+
 1. Visit https://developers.google.com/drive/api/v3/quickstart/python
 2. Enter a Project Name OR Skip
 3. Configure your OAuth Client > Desktop App
 4. Create
 
-Service Usage API
+Rename the file to `credentials.json` and place it in the repository folder
+
+To Enable the below two APIs, visit the link > select the Project > Enable
+e.g https://i.imgur.com/hJP61iq.png
+
+#### Identity and Access Management (IAM) API
+https://console.developers.google.com/apis/library/iam.googleapis.com
+
+#### Service Usage API
 https://console.developers.google.com/apis/library/serviceusage.googleapis.com
 
-Identity and Access Management (IAM) API
-https://console.developers.google.com/apis/library/iam.googleapis.com
-https://i.imgur.com/hJP61iq.png
-
-
-And Follow the process
-
-Rename the file to `credentials.json` and place it in the repository folder
 
 ```sh
 pip3 install -r requirements.txt
-python3 gen_sa_accounts.py --quick-setup 2 --new-only    # This will create around 200 Service Accounts
+# Install all the required python modules
 ```
 
 ```sh
-python3 gen_sa_accounts.py --quick-setup 5 --new-only    # This will create around 1200 Service Accounts
+python3 gen_sa_accounts.py --quick-setup 2 --new-only
+# This will create around 200 Service Accounts
+```
+
+```sh
+python3 gen_sa_accounts.py --quick-setup 5 --new-only
+# This will create around 1200 Service Accounts
 ```
 
 
 ```sh
 python3 add_to_team_drive.py -d TEAMDRIVEID
 ```
+Replace `TEAMDRIVEID` with yours
+
 This will Add all the service accounts to your Teamdrive, so make sure you have `Manager` Role in this `TEAMDRIVEID`
 
+
+
+If you don't have a Team Drive, you can get few from below links
+
+https://td.fastio.me
+
+https://td.hackgence.com OR https://team.hackgence.com
+
+
+
+
+
 We have successfully generated Service Accounts (SA)
-Rename any one of the SA to `1.json`
+at `/gdrive-clone/accounts/` folder, Rename any one of the SA to `1.json`
 
 
 

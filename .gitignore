@@ -1,5 +1,5 @@
 .autogit
-/accounts/*
+/accounts/*.json
 /config.json
 node_modules/
 npm-debug.log
