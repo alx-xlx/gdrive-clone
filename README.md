@@ -1,3 +1,5 @@
+![gdrive-clone](https://i.imgur.com/dAbwUD6.png)
+
 # gdrive-clone
  Clone a shared google drive link to your own google drive
 
@@ -7,7 +9,7 @@
 - Server Side Copy (SAs are used for copy/move/sync)
 - Bypass 750GB Transfer Limit
 - No extra Bandwidth Required
-- Implemented with Telegram Bot for easy access 
+- Integrated with Telegram Bot for easy access 
 
 Guide 
 
