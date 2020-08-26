@@ -1,6 +1,12 @@
 # gdrive-clone
  Clone a shared google drive link to your own google account
 
+### Features
+
+- COPY/MOVE/SYNC any Shared Folder to your (My Drive/Shared Drive)
+- Bypass 750GB Transfer Limit
+- 
+
 ### Requirements
 - Python 3
 - Telegram Application
@@ -47,6 +53,17 @@ python3 gen_sa_accounts.py --quick-setup 2 --new-only    # This will create arou
 ```sh
 python3 gen_sa_accounts.py --quick-setup 2 --new-only    # This will create around 1200 Service Accounts
 ```
+
+
+`python add_to_team_drive.py -d TEAMDRIVEID`
+This will Add all the service accounts to your Teamdrive
+
+
+
+
+
+## Important
+
 
 
 
