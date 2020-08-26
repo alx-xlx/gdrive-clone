@@ -55,8 +55,10 @@ python3 gen_sa_accounts.py --quick-setup 2 --new-only    # This will create arou
 ```
 
 
-`python add_to_team_drive.py -d TEAMDRIVEID`
-This will Add all the service accounts to your Teamdrive
+```sh
+python3 add_to_team_drive.py -d TEAMDRIVEID
+```
+This will Add all the service accounts to your Teamdrive, so make sure you have `Manager` Role in this `TEAMDRIVEID`
 
 
 
