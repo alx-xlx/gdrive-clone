@@ -1,9 +1,25 @@
-![gdrive-clone](https://i.imgur.com/dAbwUD6.png)
+<div align="center">
+<img src="https://i.imgur.com/CAHWIDk.png" alt="gdrive-clone" height="">
 
-# gdrive-clone
- Clone a shared google drive link to your own google drive
+<pre>
+"Clone a shared google drive link to your own google drive"
+</pre>
 
-### Features
+<a href="https://github.com/alx-xlx/gdrive-clone/blob/master/LICENSE"><img src="https://img.shields.io/badge/Open_source-MIT-green.svg?logo=git&logoColor=green"/></a>
+<a href="https://github.com/alx-xlx/gdrive-clone/commits/dev"><img src="https://img.shields.io/github/last-commit/alx-xlx/gdrive-clone.svg?logo=Sublime+Text&logoColor=green&label=Active"/></a>
+<img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/alx-xlx/gdrive-clone">
+<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/alx-xlx/gdrive-clone">
+<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/alx-xlx/gdrive-clone">
+
+
+<hr/>
+</div>
+
+
+
+
+
+### 🌠 Features
 
 - COPY/MOVE/SYNC any Shared Folder to your (My Drive/Shared Drive)
 - Server Side Copy (SAs are used for copy/move/sync)
@@ -13,12 +29,13 @@
 
 Guide 
 
-### Requirements
+### ⚙️ Requirements
 - Python 3
 - Telegram Application
 - Linux Server 
 
-### Setup
+### 📤 Setup
+
 
 ```sh
 sudo apt install -y make python build-essential
