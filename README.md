@@ -16,7 +16,19 @@ npm install
 node server
 ```
 
-If everything go as scripted you will be asked to Enter Auth Token
+If everything go as scripted it will prompt you to Enter a Token
+Follow the "Create a Telegram Bot" section below to generate the Token
+
+### Create a Telegram Bot
+
+1. Open your Telegram Application and find @botfather or visit [t.me/botfather](https://t.me/botfather)
+2. `/start`
+3. `/newbot`
+4. Choose a Name for your Bot
+
+Once Successful, you will be presented with a link to your bot (t.me/YOURBOT) & a Token to Access the HTTP API
+
+
 
 ### Generate Service Accounts
 
@@ -25,9 +37,17 @@ Before Generating Service Accounts we have to enable Drive API in our Google Acc
 Visit https://developers.google.com/drive/api/v3/quickstart/python
 And Follow the process
 
-Rename the file to `credentials.json` and place it in repository 
+Rename the file to `credentials.json` and place it in the repository folder
 
-`pip3 install -r requirements.txt`
+```sh
+pip3 install -r requirements.txt
+python3 gen_sa_accounts.py --quick-setup 2 --new-only    # This will create around 500 Service Accounts
+```
+
+```sh
+python3 gen_sa_accounts.py --quick-setup 2 --new-only    # This will create around 1200 Service Accounts
+```
+
 
 
 ## Credits
