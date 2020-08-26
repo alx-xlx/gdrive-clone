@@ -19,7 +19,7 @@ echo "                   `date`                            G-COPY
 |_____|                                                   
               https://github.com/alx-xlx/gdrive-clone               "
 
-echo -n "Checking for Accounts Folder"
+echo -n "Checking Accounts Folder"
 sleep 2
 if test -f "$FILEPATH"; then
     echo -e "\\r${CHECK_MARK} Accounts Folder is Present"

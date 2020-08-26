@@ -41,18 +41,30 @@ Once Successful, you will be presented with a link to your bot (t.me/YOURBOT) & 
 
 Before Generating Service Accounts we have to enable Drive API in our Google Account and grab the API `credentials.json` file.
 
-Visit https://developers.google.com/drive/api/v3/quickstart/python
+1. Visit https://developers.google.com/drive/api/v3/quickstart/python
+2. Enter a Project Name OR Skip
+3. Configure your OAuth Client > Desktop App
+4. Create
+
+Service Usage API
+https://console.developers.google.com/apis/library/serviceusage.googleapis.com
+
+Identity and Access Management (IAM) API
+https://console.developers.google.com/apis/library/iam.googleapis.com
+https://i.imgur.com/hJP61iq.png
+
+
 And Follow the process
 
 Rename the file to `credentials.json` and place it in the repository folder
 
 ```sh
 pip3 install -r requirements.txt
-python3 gen_sa_accounts.py --quick-setup 2 --new-only    # This will create around 500 Service Accounts
+python3 gen_sa_accounts.py --quick-setup 2 --new-only    # This will create around 200 Service Accounts
 ```
 
 ```sh
-python3 gen_sa_accounts.py --quick-setup 2 --new-only    # This will create around 1200 Service Accounts
+python3 gen_sa_accounts.py --quick-setup 5 --new-only    # This will create around 1200 Service Accounts
 ```
 
 
@@ -61,7 +73,8 @@ python3 add_to_team_drive.py -d TEAMDRIVEID
 ```
 This will Add all the service accounts to your Teamdrive, so make sure you have `Manager` Role in this `TEAMDRIVEID`
 
-
+We have successfully generated Service Accounts (SA)
+Rename any one of the SA to `1.json`
 
 
 
