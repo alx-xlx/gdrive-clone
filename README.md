@@ -46,8 +46,7 @@ chmod -R 777 gclone
 npm install
 ```
 
-If everything go as scripted it will prompt you to Enter a Token
-Follow the "Create a Telegram Bot" section below to generate the Token
+
 
 ### Create a Telegram Bot
 
@@ -138,9 +137,10 @@ at `/gdrive-clone/accounts/` folder, Rename any one of the SA to `1.json`
 node server
 # This will run the server, and now you can goto your Telegram bot and run commands
 ```
+If everything go as scripted it will prompt you to Enter a Token
+Switch back to Telegram App and `/run /PATH/TO/gdrive-clone/gclone`
 
-
-## Important
+<!-- ## Important -->
 
 
 
