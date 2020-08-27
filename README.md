@@ -10,6 +10,7 @@
 <img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/alx-xlx/gdrive-clone">
 <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/alx-xlx/gdrive-clone">
 <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/alx-xlx/gdrive-clone">
+<img alt="gdrive-clone-hits" src="http://hits.dwyl.com/alx-xlx/gdrive-clone.svg">
 
 
 <hr/>
