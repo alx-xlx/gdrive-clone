@@ -44,7 +44,6 @@ cd gdrive-clone
 mkdir accounts
 chmod -R 777 gclone
 npm install
-node server
 ```
 
 If everything go as scripted it will prompt you to Enter a Token
@@ -129,11 +128,16 @@ https://td.hackgence.com OR https://team.hackgence.com
 
 
 
-
-
 We have successfully generated Service Accounts (SA)
 at `/gdrive-clone/accounts/` folder, Rename any one of the SA to `1.json`
 
+
+## Run
+
+```sh
+node server
+# This will run the server, and now you can goto your Telegram bot and run commands
+```
 
 
 ## Important
