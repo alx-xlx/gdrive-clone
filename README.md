@@ -31,6 +31,7 @@
 
 ### ⚙️ Requirements
 - Python 3
+- NodeJS
 - Telegram Application
 - Linux Server 
 
