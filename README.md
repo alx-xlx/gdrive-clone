@@ -27,7 +27,7 @@
 - No extra Bandwidth Required
 - Integrated with Telegram Bot for easy access 
 
-Guide 
+
 
 ### ⚙️ Requirements
 - Python 3
@@ -75,7 +75,8 @@ Before Generating Service Accounts we have to enable Drive API in our Google Acc
 
 Rename the file to `credentials.json` and place it in the repository folder
 
-To Enable the below two APIs, visit the link > select the Project > Enable
+To Enable the below two APIs, `visit the link > select the Project > Enable`
+
 e.g https://i.imgur.com/hJP61iq.png
 
 #### Identity and Access Management (IAM) API
@@ -104,7 +105,7 @@ python3 gen_sa_accounts.py --quick-setup 5 --new-only
 ```sh
 python3 add_to_team_drive.py -d TEAMDRIVEID
 ```
-Replace `TEAMDRIVEID` with yours
+Replace `TEAMDRIVEID` with your `Teamdrive ID ` OR with `Folder ID` Inside `My Drive` having Read and Write Permission
 
 This will Add all the service accounts to your Teamdrive, so make sure you have `Manager` Role in this `TEAMDRIVEID`
 
