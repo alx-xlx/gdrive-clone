@@ -105,7 +105,16 @@ python3 gen_sa_accounts.py --quick-setup 5 --new-only
 ```sh
 python3 add_to_team_drive.py -d TEAMDRIVEID
 ```
-Replace `TEAMDRIVEID` with your `Teamdrive ID ` OR with `Folder ID` Inside `My Drive` having Read and Write Permission
+Replace `TEAMDRIVEID` with your `Teamdrive ID`
+
+![](https://i.imgur.com/53g521H.png)
+
+OR 
+
+Replace `TEAMDRIVEID` with `Folder ID` Inside `My Drive` having Editor Permission
+
+![](https://i.imgur.com/hqPT2Jx.png)
+
 
 This will Add all the service accounts to your Teamdrive, so make sure you have `Manager` Role in this `TEAMDRIVEID`
 
