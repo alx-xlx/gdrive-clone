@@ -144,8 +144,19 @@ Switch back to Telegram App and `/run /PATH/TO/gdrive-clone/gclone`
 
 <!-- ## Important -->
 
+#### Run Forever
 
+```sh
+sudo npm install forever -g
+# Install forever
+```
 
+```sh
+forever start server.js
+# Start Server
+forever stop server.js
+# Stop Server
+```
 
 ## Credits
 
