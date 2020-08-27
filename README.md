@@ -78,13 +78,13 @@ Rename the file to `credentials.json` and place it in the repository folder
 
 To Enable the below two APIs, `visit the link > select the Project > Enable`
 
-e.g https://i.imgur.com/hJP61iq.png
+![iam-googleapis](https://i.imgur.com/hJP61iq.png)
 
 #### Identity and Access Management (IAM) API
-https://console.developers.google.com/apis/library/iam.googleapis.com
+[iam.googleapis.com](https://console.developers.google.com/apis/library/iam.googleapis.com)
 
 #### Service Usage API
-https://console.developers.google.com/apis/library/serviceusage.googleapis.com
+[serviceusage.googleapis.com](https://console.developers.google.com/apis/library/serviceusage.googleapis.com)
 
 
 ```sh
