@@ -5,12 +5,12 @@
 "Clone a shared google drive link to your own google drive"
 </pre>
 
-<a href="https://github.com/alx-xlx/gdrive-clone/blob/master/LICENSE"><img src="https://img.shields.io/badge/Open_source-MIT-green.svg?logo=git&logoColor=green"/></a>
-<a href="https://github.com/alx-xlx/gdrive-clone/commits/dev"><img src="https://img.shields.io/github/last-commit/alx-xlx/gdrive-clone.svg?logo=Sublime+Text&logoColor=green&label=Active"/></a>
+<img alt="gdrive-clone-license" src="https://img.shields.io/badge/Open_source-MIT-red.svg?logo=git&logoColor=green"/>
+<img src="https://img.shields.io/github/last-commit/alx-xlx/gdrive-clone.svg?logo=Sublime+Text&logoColor=green&label=Active"/>
 <img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/alx-xlx/gdrive-clone">
 <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/alx-xlx/gdrive-clone">
 <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/alx-xlx/gdrive-clone">
-<img alt="gdrive-clone-hits" src="http://hits.dwyl.com/alx-xlx/gdrive-clone.svg">
+<img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Falx-xlx%2Fgdrive-clone&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Views&edge_flat=false"/>
 
 
 <hr/>
