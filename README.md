@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://i.imgur.com/Vkrgg5B.png" alt="gdrive-clone" height="">
+<img src="https://i.imgur.com/kUxdreS.png" alt="gdrive-clone" height="">
 <br></br>
 <img src="https://i.imgur.com/CAHWIDk.png" alt="gdrive-clone" height="">
 <pre>
